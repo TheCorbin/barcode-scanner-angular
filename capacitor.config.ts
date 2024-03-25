@@ -6,6 +6,12 @@ const config: CapacitorConfig = {
   webDir: 'www',
   server: {
     androidScheme: 'https'
+  },
+  plugins: {
+    PhotoViewer: {
+      iosImageLocation: 'Library/Images',
+      androidImageLocation: 'Files/Images',
+    }
   }
 };
 

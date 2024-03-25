@@ -30,6 +30,7 @@
     "@capacitor/keyboard": "5.0.8",
     "@capacitor/status-bar": "5.0.7",
     "@ionic/angular": "^7.0.0",
+    "@capacitor-community/photoviewer": "^3.0.6",
     "capacitor-native-biometric": "^4.2.2",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
