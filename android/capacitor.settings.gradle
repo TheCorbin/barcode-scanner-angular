@@ -2,6 +2,12 @@
 include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
+include ':capacitor-community-photoviewer'
+project(':capacitor-community-photoviewer').projectDir = new File('../node_modules/@capacitor-community/photoviewer/android')
+
+include ':capacitor-native-biometric'
+project(':capacitor-native-biometric').projectDir = new File('../node_modules/capacitor-native-biometric/android')
+
 include ':capacitor-mlkit-barcode-scanning'
 project(':capacitor-mlkit-barcode-scanning').projectDir = new File('../node_modules/@capacitor-mlkit/barcode-scanning/android')
 
@@ -16,9 +22,3 @@ project(':capacitor-keyboard').projectDir = new File('../node_modules/@capacitor
 
 include ':capacitor-status-bar'
 project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacitor/status-bar/android')
-
-include ':capacitor-community-photoviewer'
-project(':capacitor-community-photoviewer').projectDir = new File('../node_modules/@capacitor-community/photoviewer/android')
-
-include ':capacitor-native-biometric'
-project(':capacitor-native-biometric').projectDir = new File('../node_modules/capacitor-native-biometric/android')
